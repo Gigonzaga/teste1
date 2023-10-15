@@ -1,0 +1,61 @@
+header {
+    text-align: center;
+    height: 110px;
+    background-color: rgb(204, 204, 204);
+}
+
+nav {
+    text-align: center;
+    height: 80px;
+    background-color: rgba(24, 101, 173, 0.938);
+    text-decoration: none;
+    font-size: 25px;
+}
+
+a {
+    text-align: center;
+    margin: 200px;
+    text-decoration: none;
+    color: white;
+}
+
+aside {
+    width: 400px;
+    height: 800px;
+    grid-area: aside left;
+    background-color: rgb(204, 204, 204);
+}
+
+#div1 {
+    text-align: center;
+}
+
+#div2 {
+    text-align: center;
+}
+
+h1 {
+    text-align: center;
+}
+
+p {
+ text-align: center;
+ font-weight: bold ;
+ text-decoration: underline ;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 0fr 2fr;
+    grid-area: "header header"
+                "aside-left main"
+                "footer footer";
+}
+
+form {
+    text-align: center;
+}
+
+#div3 {
+    text-align: center;
+}

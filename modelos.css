@@ -1,0 +1,75 @@
+header {
+    text-align: center;
+    height: 110px;
+    background-color: rgb(204, 204, 204);
+    grid-area: header;
+}
+
+nav {
+    background-color: rgba(24, 101, 173, 0.938);
+    height: 80px;
+    text-decoration: none;
+    font-size: 25px;
+    text-align: center;
+    grid-area: nav;
+}
+
+a {
+    text-align: center;
+    margin: 200px;
+    text-decoration: none;
+    color: white;
+}
+
+#asideleft {
+    grid-area: asideleft;
+    text-align: center;
+    background-color:  rgb(204, 204, 204);
+    position: relative;
+    height: 800px;
+    width: 350px;
+    
+}
+
+#asideleft h1{
+    margin: 10px;
+}
+
+#asideleft figcaption {
+    margin: 5px;
+}
+
+#asideright {
+    grid-area: asideright;
+    background: url(../img/empresa.jpg);
+    background-color:  rgb(204, 204, 204);
+    background-repeat: no-repeat;
+    position: relative;
+    height: 800px;
+    width: 350px;
+}
+
+p {
+    color: black;
+    text-align: center;
+}
+
+#maintable {
+     grid-area: main;
+     position: relative;
+     top: 120px;
+     left: 150px;
+     width: 300px;
+}
+
+
+.container {
+
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+    grid-template-rows: auto auto auto auto;
+    grid-template-areas: "header header header"
+                        "nav nav nav"
+                        "asideleft main asideright";
+                        
+}
